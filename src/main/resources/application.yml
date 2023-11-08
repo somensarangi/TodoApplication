@@ -1,7 +1,5 @@
-
 server:
-  port: 8082
-
+  port: 0 # Use of dynamic port -> it will be automatically fetch and generate port numbers
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
